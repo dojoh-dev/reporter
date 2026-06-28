@@ -1,0 +1,64 @@
+name: Bug report
+description: Report a reproducible problem in a dojoh-dev project.
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please provide enough detail for maintainers to reproduce and triage quickly.
+
+  - type: input
+    id: affected_project
+    attributes:
+      label: Affected project/repository
+      description: Which dojoh-dev repository or component is impacted?
+      placeholder: e.g. dojoh-dev/my-service
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug summary
+      description: What is broken?
+      placeholder: A clear and concise summary.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List exact steps so others can reproduce the issue.
+      placeholder: |
+        1. Go to ...
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, runtime, browser, version, or other relevant context.
+      placeholder: e.g. Ubuntu 24.04, Node 22, Chrome 127
+    validations:
+      required: false

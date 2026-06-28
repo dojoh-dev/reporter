@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions or general support
+    url: https://github.com/dojoh-dev/issues/discussions
+    about: Please use discussions for open-ended questions and support requests.
