@@ -1,0 +1,50 @@
+name: Feature request
+description: Propose a new feature or enhancement.
+title: "[Feature]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing a feature request. Please focus on the problem and expected outcome.
+
+  - type: input
+    id: affected_project
+    attributes:
+      label: Related project/repository
+      description: Which dojoh-dev repository or component would this affect?
+      placeholder: e.g. dojoh-dev/my-service
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What user or business problem should this solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe your preferred approach.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternatives or trade-offs considered?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Links, screenshots, references, or other supporting context.
+    validations:
+      required: false
