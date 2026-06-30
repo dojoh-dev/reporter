@@ -1,6 +1,6 @@
-# dojoh-dev/issues
+# dojoh-dev/reporter
 
-This repository is the **public issue entrypoint** for the `dojoh-dev` organization.
+This repository is the **public issue entrypoint** for the `dojoh-dev` organisation.
 
 Use it to:
 - report bugs,
@@ -13,7 +13,7 @@ Please make sure you:
 1. Searched existing issues to avoid duplicates.
 2. Used the correct issue form.
 3. Included clear reproduction details (for bugs) or problem context (for features).
-4. Shared expected vs actual behavior.
+4. Shared expected vs actual behaviour.
 
 ## How to report issues
 
@@ -33,8 +33,8 @@ High-quality reports are triaged faster and are much easier for maintainers to a
 ## Issue hygiene and automation
 
 To keep the tracker healthy and actionable:
-- new issues are automatically labeled for triage,
-- issues missing key details are labeled `needs-information`,
+- new issues are automatically labelled for triage,
+- issues missing key details are labelled `needs-information`,
 - inactive issues are marked stale and can be auto-closed after extended inactivity.
 
 ## Security reports
